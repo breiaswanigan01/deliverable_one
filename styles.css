@@ -7,7 +7,7 @@
 background-color: #F2F2F2;
 padding: 20px 10px 20px 10px;
     list-style: none;
-    display: flex;
+    display: flex; 
     
     /* align-items: center; */
 /* flex-basis: auto; */
@@ -40,6 +40,7 @@ font-weight: 790;
      background-color: #20a8b4;
      padding: 12px;
      border-radius: 10px;
+    
  }
 
 .btn:hover {
@@ -105,8 +106,12 @@ width:100%;
   align-items:center;
     
     }
+    .center {
+        /* display: flex; */
+    }
   .centered {
       justify-content:left;
+     display: flex;
   }
 .pic {
     display: inline-block;
@@ -116,6 +121,7 @@ padding: 25px 55px 55px 25px;
 }
     .btn {
         width:auto;
+      
     }
     .btn2 {
         width:auto;
@@ -124,4 +130,3 @@ padding: 25px 55px 55px 25px;
 
 
 
-}
